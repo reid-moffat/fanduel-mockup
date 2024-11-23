@@ -1,1 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        .header {
+            background-color: #007aff;
+
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-link {
+            cursor: pointer;
+
+            display: flex;
+        }
+
+        .main-section {
+            background-image: url("https://s3.amazonaws.com/cdn.fanduel.com/images/2023/fanduel/homepage/facelift/slides/SBK_B5G300_LeaguePass_Background.jpg");
+            display: flex;
+
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 3%;
+
+            color: white;
+        }
+
+        .explore-section {
+            background-color: #eaf0f6;
+
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 3%;
+        }
+
+        .content-section {
+            background-color: #eaf0f6;
+
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 3%;
+            padding-bottom: 5rem;
+        }
+
+        .footer {
+            background-color: gray;
+
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="./images/fanduel-logo.png">
+
+        <div style="display: flex; gap: 1.5rem; color: white; font-size: large;">
+            <div class="header-link" onclick="alert('Clicked Sportsbook!')">
+                <div>
+                    Sportsbook
+                </div>
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked Casino!')">
+                Casino
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked Fantasy!')">
+                Fantasy
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked Racing!')">
+                Racing
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked Research!')">
+                Research
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked TV!')">
+                TV
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+            <div class="header-link" onclick="alert('Clicked Faceoff!')">
+                Faceoff
+                <img src="./images/new-window-icon.png" width="18" height="18" style="margin-top: 0.1rem; margin-left: 0.3rem;">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div>
+            <div>
+                <img src="./images/shield.png" width="35">
+                <img src="./images/sportsbook-text.png" width="220" style="margin-bottom: 0.5rem; margin-left: 0.5rem">
+            </div>
+            <div style="font-weight: 900; font-size: xx-large; margin-top: 0.5rem; margin-bottom: 0.5rem;">
+                AMERICA'S  #1 SPORTSBOOK
+            </div>
+            <div style="font-weight: bold; margin-bottom: 0.3rem; font-size: larger;">
+                BOOM$$$HAKALAKA
+            </div>
+            <div style="max-width: 20rem; font-size: large;">
+                The NBA is back! Start the season with $150 in Bonus Bets if your first $5 bet wins + get 3 months of NBA League Pass on us so you can watch all the action live!
+            </div>
+            <button style="background-color: white; border-radius: 5px; border-width: 0; padding: 0.7rem; color: rgb(53, 53, 150); margin-top: 1rem; cursor: pointer;" onclick="alert('Clicked Join Sportsbook!')">
+                Join Sportsbook
+            </button>
+        </div>
+
+        <img src="./images/offer.png" width="450" height="400">
+        <img src="./images/player.png" width="375" height="450">
+    </div>
+
+    <div class="explore-section">
+        <div style="display: flex; justify-content: center; font-size: xx-large; font-weight: 900;">
+            Explore the world of FanDuel sports and gaming
+        </div>
+        <br/>
+        <div style="display: flex; justify-content: center; font-size: large; margin-bottom: 2rem;">
+            The best place to bet on sports, play online games, and build your team.
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
+            <div style="background-image: url(https://cdn.sanity.io/images/pbwem9y5/fanduel_marketing_production/77a1f3e5f060d89b08a8032644e313f529f595d9-632x422.webp); border-radius: 5px; cursor: pointer;" onclick="alert('Clicked Sportsbook!')">
+                <div style="margin-top: 8rem; margin-bottom: 8rem; margin-left: 2rem; margin-right: 20rem; color: white;">
+                    <div style="display: flex;">
+                        <img src="./images/shield.png">
+                        <div style="margin-left: 0.5rem; margin-top: 0rem; font-size: x-large;">
+                            SPORTSBOOK
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.8rem; margin-bottom: 0.8rem; font-size: large;">
+                        Bet on all your favourite sports
+                    </div>
+                    <div style="font-size: large; text-decoration: underline;">
+                        Go To Sportsbook &gt
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url(https://cdn.sanity.io/images/pbwem9y5/fanduel_marketing_production/7e270b2a22348663b58d8f4131b2e8afc8e61e6c-632x422.webp); border-radius: 5px; cursor: pointer;" onclick="alert('Clicked Casino!')">
+                <div style="margin-top: 8rem; margin-bottom: 8rem; margin-left: 2rem; margin-right: 20rem; color: white;">
+                    <div style="display: flex;">
+                        <img src="./images/shield.png">
+                        <div style="margin-left: 0.5rem; margin-top: 0rem; font-size: x-large;">
+                            CASINO
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.8rem; margin-bottom: 0.8rem; font-size: large;">
+                        Play all your favourite table games and slots
+                    </div>
+                    <div style="font-size: large; text-decoration: underline;">
+                        Go To Casino &gt
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="background-image: url(https://cdn.sanity.io/images/pbwem9y5/fanduel_marketing_production/a5e6b3200eba02606a49f45eb5bc4e7013c10642-343x193.webp); border-radius: 5px; cursor: pointer;" onclick="alert('Clicked Fantasy!')">
+                <div style="margin-top: 2rem; margin-bottom: 2rem; margin-left: 2rem; margin-right: 10rem; color: white;">
+                    <div style="display: flex;">
+                        <img src="./images/shield.png">
+                        <div style="margin-left: 0.5rem; margin-top: 0rem; font-size: x-large;">
+                            FANTASY
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.8rem; margin-bottom: 0.8rem; font-size: large;">
+                        Draft a winning team every week
+                    </div>
+                    <div style="font-size: large; text-decoration: underline;">
+                        Go To Fantasy &gt
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url(https://cdn.sanity.io/images/pbwem9y5/fanduel_marketing_production/525d0fb760cc199cd72ece116c5e095d75e86b07-343x193.webp); border-radius: 5px; cursor: pointer;" onclick="alert('Clicked Racing!')">
+                <div style="margin-top: 2rem; margin-bottom: 2rem; margin-left: 2rem; margin-right: 10rem; color: white;">
+                    <div style="display: flex;">
+                        <img src="./images/shield.png">
+                        <div style="margin-left: 0.5rem; margin-top: 0rem; font-size: x-large;">
+                            RACING
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.8rem; margin-bottom: 0.8rem; font-size: large;">
+                        Bet on live horse races
+                    </div>
+                    <div style="font-size: large; text-decoration: underline;">
+                        Go To Racing &gt
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url(https://cdn.sanity.io/images/pbwem9y5/fanduel_marketing_production/383f4761d59cc101e7d32f81d3f83537fcd21cb7-343x193.webp); border-radius: 5px; cursor: pointer;" onclick="alert('Clicked Faceoff!')">
+                <div style="margin-top: 2rem; margin-bottom: 2rem; margin-left: 2rem; margin-right: 10rem; color: white;">
+                    <div style="display: flex;">
+                        <img src="./images/shield.png">
+                        <div style="margin-left: 0.5rem; margin-top: 0rem; font-size: x-large;">
+                            FACEOFF
+                        </div>
+                    </div>
+                    <div style="margin-top: 0.8rem; margin-bottom: 0.8rem; font-size: large;">
+                        Play against real people for cash
+                    </div>
+                    <div style="font-size: large; text-decoration: underline;">
+                        Go To Faceoff &gt
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div style="display: flex; justify-content: center; font-size: xx-large; font-weight: bold; margin-bottom: 3rem;">
+            The content you love
+        </div>
+        <div style="display: flex;">
+            <img src="./images/0ff2cb09d032a8bae7600440916f68486ca69a7b-888x549.webp" width="600">
+            <div style="margin-left: 2rem;">
+                <img src="./images/6e9920251d81aee532384ba76027792e0f58b584-225x40.svg" width="300">
+                <div style="margin-bottom: 1rem; margin-top: 1rem; font-size: large; max-width: 35rem; font-weight: 200;">
+                    FanDuel TV is a whole new way to enjoy everything FanDuel. That includes your favorite celebrity hosts, betting content, and more! All to enhance your sports betting and race day experience.
+                </div>
+                <div style="border-style: solid; border-color: #007aff; border-radius: 5px; border-width: 1px; padding: 1rem; max-width: 10rem; font-size: larger; color: #007aff; cursor: pointer;">
+                    Watch Now &gt
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            Fanduel, 2024
+        </div>
+    </div>
+
+</body>
+</html>
